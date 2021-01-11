@@ -1,0 +1,33 @@
+@button_width: auto;
+@button_color: #AFA278;
+@text_color: #FFFFFF;
+@button_size: medium;
+
+.lava-button-flat {
+	background: @button_color;
+	border-color: @button_color;
+	color: @text_color !important;
+	width: @button_width;
+
+	.btn_small() when( @button_size = small) {
+		font-size: 16px;
+		font-size: 0.88rem;
+		padding: 16px 50px;
+		padding: 0.88rem 2.77rem;
+	}
+	.btn_small();
+
+	.btn_large() when( @button_size = large) {
+		font-size: 19px;
+		font-size: 1.05rem;
+		padding: 24px 70px;
+		padding: 1.33rem 3.88rem;
+	}
+	.btn_large();
+
+	&:active,
+	&:hover {
+		background: #FFFFFF;
+		color: @button_color !important;
+	}
+}

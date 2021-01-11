@@ -1,0 +1,229 @@
+
+.no_active{
+    display: none;
+}
+
+#rate_new_open{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cmb2-postbox .cmb-type-price-details .cmb-th+.cmb-td{
+    width: 100%;
+    float: none;
+}
+
+.set-price-general ul li, .rate_start_days ul li, .rate_apply_days ul li{
+    display: inline-block;
+    margin-right: 13px;
+}
+
+#prices-form label{
+    vertical-align: text-bottom;
+}
+
+#prices-form > div > div {
+    margin-bottom: 12px;
+}
+
+.rate-label-units{
+    margin-right: 13px;
+}
+
+.rate_dates{
+    display: inline-block;
+}
+
+.set-price-general, .set-price-from{
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 4px;
+    background-color: #f2f2f2;
+}
+
+.set-price-from{
+    background-color: transparent;
+}
+
+.set-price-conditional{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.set-price-conditional h4, .set-price-general h4{
+    margin-top:  0;
+}
+
+#rate-price-conditional-generator{
+    
+}
+
+#rate-price-conditional-generator > *{
+    vertical-align: middle;
+    line-height: 1.2;
+    margin: 0 4px 0 0;
+}
+
+#rate-price-conditional-generator div.conditional_operator_label{
+    margin-top: 8px;
+}
+
+#rate-price-conditional-generator .age-prices{
+    margin-bottom: 8px;
+}
+
+#rate-price-conditional-generator select:hover{
+    cursor: pointer;
+}
+
+select.select_option_gray option.option_gray, select.select_option_gray{
+    color: #aaa;
+}
+
+select.select_option_gray option{
+    color: #333;
+}
+
+#rate-price-conditional-holder{
+    margin-bottom: 8px;
+}
+
+#rate-price-conditional-holder .conditional_price_block{
+    margin: 1px 0;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    cursor: move;
+}
+
+#rate-price-conditional-holder .ui-state-highlight{
+    min-height: 36px;
+}
+
+
+.age-prices td{
+    padding: 0;
+    font-size: 12px;
+}
+
+.cmb2-wrap .age-prices input {
+    font-size: 12px;
+}
+
+.set-age-price{
+    width: 100px;
+}
+
+#_rate_title{
+    width: 200px;
+}
+
+/*****************/
+
+#prices-form{
+    margin-top: 20px;
+}
+
+.view-rate-block{
+    display: table;
+    width: 100%;
+}
+
+#prices-block .ui-state-highlight{
+    min-height: 72px;
+    display: block;
+}
+
+.view-rate-title{
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+    margin-bottom: 1px;
+    background-color: khaki;
+}
+
+.view-rate-title:hover{
+    cursor: pointer;
+}
+
+.view-rate-title.opened{
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+.view-rate-details{
+    display: none;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-top: none;
+    margin-bottom: 1px;
+}
+
+.view-rate-details:hover{
+    cursor: move;
+}
+
+.view-rate-details.opened{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.view-rate-dates{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.view-rate-details .rate_apply_days, .view-rate-details .rate_start_days{
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.rate_price_general{
+    font-weight: 500;
+}
+
+.rate_prices_conditional_details{
+    margin-top: 0;
+    list-style-type: none;
+}
+
+h4.rate_details_label{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.prices_conditional_then{
+    color: #999;
+}
+
+.price_age_value{
+    font-weight: 500;
+}
+
+
+.view-rate-details-item{
+    padding: 5px;
+    flex-grow: 3;
+}
+
+.view-rate-details-item h4{
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.view-rate-details-item ul li {
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.view-rate-details-item-del:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-23 10:50+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: trunk/wp-hotel-booking-report.php:95
+msgid ""
+"The <strong>WP Hotel Booking</strong> is not installed and/or activated. "
+"Please install and/or activate before you can using <strong>WP Hotel Booking "
+"Report</strong> add-on."
+msgstr ""
+
+#: trunk/inc/class-hb-report-price.php:92
+#: trunk/inc/class-hb-report-room.php:110
+#, php-format
+msgid "Chart in %s to %s"
+msgstr ""
+
+#: trunk/inc/class-hb-report-price.php:309
+#: trunk/inc/class-hb-report-room.php:445
+msgid "Date/Time"
+msgstr ""
+
+#: trunk/inc/class-hb-report-price.php:313 trunk/inc/class-hb-report.php:159
+msgid "Month"
+msgstr ""
+
+#: trunk/inc/class-hb-report-price.php:317
+msgid "Total Earning"
+msgstr ""
+
+#: trunk/inc/class-hb-report-price.php:372
+#, php-format
+msgid "Total %s to %s"
+msgstr ""
+
+#: trunk/inc/class-hb-report-room.php:320
+#, php-format
+msgid "%s unavailable"
+msgstr ""
+
+#: trunk/inc/class-hb-report-room.php:327
+#, php-format
+msgid "%s available"
+msgstr ""
+
+#: trunk/inc/class-hb-report-room.php:333
+#, php-format
+msgid "%s quantity of room"
+msgstr ""
+
+#: trunk/inc/class-hb-report-room.php:454
+msgid "Unavailable"
+msgstr ""
+
+#: trunk/inc/class-hb-report-room.php:490
+msgid "Avaiable"
+msgstr ""
+
+#: trunk/inc/class-hb-report-room.php:494
+msgid "Room Quantity"
+msgstr ""
+
+#: trunk/inc/class-hb-report.php:155
+msgid "Day"
+msgstr ""
+
+#: trunk/inc/functions.php:27 trunk/inc/functions.php:28
+msgid "Reports"
+msgstr ""
+
+#: trunk/inc/views/canvas-price.php:4
+msgid "Report Chart Amount Total"
+msgstr ""
+
+#: trunk/inc/views/canvas-room.php:4
+msgid "Report Chart Room Unavailable"
+msgstr ""
+
+#: trunk/inc/views/report.php:7
+msgid "Booking Price"
+msgstr ""
+
+#: trunk/inc/views/report.php:11
+msgid "Room availability"
+msgstr ""
+
+#: trunk/inc/views/report.php:40
+msgid "Year"
+msgstr ""
+
+#: trunk/inc/views/report.php:44
+msgid "Last Month"
+msgstr ""
+
+#: trunk/inc/views/report.php:48
+msgid "This Month"
+msgstr ""
+
+#: trunk/inc/views/report.php:52
+msgid "Last 7 Days"
+msgstr ""
+
+#: trunk/inc/views/report.php:82
+msgid "Export"
+msgstr ""
+
+#: trunk/inc/views/report.php:107
+msgid "Go"
+msgstr ""
+
+#: trunk/inc/views/sidebar-room.php:9
+msgid "Rooms Search"
+msgstr ""
+
+#: trunk/inc/views/sidebar-room.php:36
+msgid "Show"
+msgstr ""

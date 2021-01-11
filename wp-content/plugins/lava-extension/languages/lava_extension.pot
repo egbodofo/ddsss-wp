@@ -1,0 +1,254 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Lava Extension\n"
+"POT-Creation-Date: 2020-08-24 15:43+0900\n"
+"PO-Revision-Date: 2018-10-06 14:35+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lava-extension.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/libs\n"
+
+#: includes/class-custom-fonts.php:26
+#, php-format
+msgid "Source: %s"
+msgstr ""
+
+#: includes/class-custom-fonts.php:29
+msgid "Variants"
+msgstr ""
+
+#: includes/class-custom-fonts.php:56
+msgid "Source: Custom"
+msgstr ""
+
+#: includes/class-custom-fonts.php:71
+msgid "Fonts Saved."
+msgstr ""
+
+#: includes/class-custom-fonts.php:83
+msgid "No font file was choosen."
+msgstr ""
+
+#: includes/class-custom-fonts.php:90
+msgid "Please enter a font name."
+msgstr ""
+
+#: includes/class-custom-fonts.php:112
+msgid "Font already exist."
+msgstr ""
+
+#: includes/class-custom-fonts.php:141
+msgid "Font has been added."
+msgstr ""
+
+#: includes/class-widget-areas.php:46
+msgid "Remove"
+msgstr ""
+
+#: includes/class-widget-areas.php:65
+msgid "Name cannot be empty."
+msgstr ""
+
+#: includes/class-widget-areas.php:66
+msgid "Name exist, please use another name."
+msgstr ""
+
+#: includes/class-widget-areas.php:67
+msgid "New widget area created successfully."
+msgstr ""
+
+#: includes/class-widget-areas.php:68
+msgid "Widget removed."
+msgstr ""
+
+#: includes/class-widget-areas.php:69
+msgid "Widget cannot be removed."
+msgstr ""
+
+#: includes/functions.php:52
+#, php-format
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/shortcodes.php:107
+msgid "Button"
+msgstr ""
+
+#: lava-extension.php:64
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: lava-extension.php:79
+msgid "Token is invalid or expired. Please refresh and try again."
+msgstr ""
+
+#: lava-extension.php:85
+msgid ""
+"Your booking request has been sent successfully. We will get back to you "
+"shortly!"
+msgstr ""
+
+#: lava-extension.php:87
+msgid ""
+"System is unable to send you an email. Please refresh and try again later."
+msgstr ""
+
+#: lava-extension.php:117
+msgid "New Booking!"
+msgstr ""
+
+#: lava-extension.php:170
+msgid "Check In"
+msgstr ""
+
+#: lava-extension.php:173 lava-extension.php:221
+msgid "Arrival Date"
+msgstr ""
+
+#: lava-extension.php:177
+msgid "Check Out"
+msgstr ""
+
+#: lava-extension.php:180 lava-extension.php:226
+msgid "Departure Date"
+msgstr ""
+
+#: lava-extension.php:185 lava-extension.php:189 lava-extension.php:231
+msgid "Guests"
+msgstr ""
+
+#: lava-extension.php:198
+msgid "Check"
+msgstr ""
+
+#: lava-extension.php:204 lava-extension.php:208
+msgid "Booking Form"
+msgstr ""
+
+#: lava-extension.php:215
+msgid "Full Name"
+msgstr ""
+
+#: lava-extension.php:216
+msgid "Email"
+msgstr ""
+
+#: lava-extension.php:217
+msgid "Phone Number"
+msgstr ""
+
+#: lava-extension.php:238
+msgid "Room Type"
+msgstr ""
+
+#: lava-extension.php:245
+msgid "Message"
+msgstr ""
+
+#: lava-extension.php:247
+msgid "Make Reservation"
+msgstr ""
+
+#: lava-extension.php:274
+msgid "Share"
+msgstr ""
+
+#: lava-extension.php:276
+msgid "Share on Facebook"
+msgstr ""
+
+#: lava-extension.php:277
+msgid "Tweet it"
+msgstr ""
+
+#: lava-extension.php:278
+msgid "Share on Google Plus"
+msgstr ""
+
+#: lava-extension.php:279
+msgid "Pin it on Pinterest"
+msgstr ""
+
+#: lava-extension.php:280
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: lava-extension.php:281
+msgid "Share via email"
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:24
+#, php-format
+msgid "New booking request has been submitted on %s."
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:26
+#, php-format
+msgid "Full Name: %s"
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:28
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:30
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:32
+#, php-format
+msgid "Check In Date: %s"
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:34
+#, php-format
+msgid "Check Out Date: %s"
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:36
+#, php-format
+msgid "Guests: %s"
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:38
+#, php-format
+msgid "Room Type: %s"
+msgstr ""
+
+#: templates/emails/plain/new-booking.php:40
+#, php-format
+msgid "Message: %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Lava Extension"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://themespirit.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extend Lava theme features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSpirit"
+msgstr ""

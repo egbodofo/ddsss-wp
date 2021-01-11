@@ -1,0 +1,167 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Lava Custom Post Types\n"
+"POT-Creation-Date: 2017-04-24 20:07+0900\n"
+"PO-Revision-Date: 2017-04-24 20:05+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: thespi-custom-post-types.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: thespi-custom-post-types.php:33
+msgctxt "Offers"
+msgid "Offers"
+msgstr ""
+
+#: thespi-custom-post-types.php:34
+msgctxt "Offer"
+msgid "Offer"
+msgstr ""
+
+#: thespi-custom-post-types.php:35
+msgid "Offers"
+msgstr ""
+
+#: thespi-custom-post-types.php:36 thespi-custom-post-types.php:54
+msgid "Offer"
+msgstr ""
+
+#: thespi-custom-post-types.php:37
+msgid "Offer Archives"
+msgstr ""
+
+#: thespi-custom-post-types.php:38
+msgid "Offer Attributes"
+msgstr ""
+
+#: thespi-custom-post-types.php:39
+msgid "Parent Offers:"
+msgstr ""
+
+#: thespi-custom-post-types.php:40
+msgid "All Offers"
+msgstr ""
+
+#: thespi-custom-post-types.php:41 thespi-custom-post-types.php:43
+msgid "Add New Offer"
+msgstr ""
+
+#: thespi-custom-post-types.php:42
+msgid "Add New"
+msgstr ""
+
+#: thespi-custom-post-types.php:44
+msgid "Edit Offer"
+msgstr ""
+
+#: thespi-custom-post-types.php:45
+msgid "Update Offer"
+msgstr ""
+
+#: thespi-custom-post-types.php:46
+msgid "View Offer"
+msgstr ""
+
+#: thespi-custom-post-types.php:47
+msgid "View Offers"
+msgstr ""
+
+#: thespi-custom-post-types.php:48
+msgid "Search Offer"
+msgstr ""
+
+#: thespi-custom-post-types.php:49
+msgid "Not offers found"
+msgstr ""
+
+#: thespi-custom-post-types.php:50
+msgid "Not offers found in Trash"
+msgstr ""
+
+#: thespi-custom-post-types.php:55
+msgid "Offer Post Type"
+msgstr ""
+
+#: thespi-custom-post-types.php:64
+msgctxt "slug"
+msgid "offer"
+msgstr ""
+
+#: thespi-custom-post-types.php:74 thespi-custom-post-types.php:75
+msgid "Offer Categories"
+msgstr ""
+
+#: thespi-custom-post-types.php:76
+msgid "Search Offer Categories"
+msgstr ""
+
+#: thespi-custom-post-types.php:77
+msgid "Popular Offer Categories"
+msgstr ""
+
+#: thespi-custom-post-types.php:78
+msgid "All Offer Categories"
+msgstr ""
+
+#: thespi-custom-post-types.php:79
+msgid "Parent Offer Category"
+msgstr ""
+
+#: thespi-custom-post-types.php:80
+msgid "Parent Offer Category:"
+msgstr ""
+
+#: thespi-custom-post-types.php:81
+msgid "Edit Offer Category"
+msgstr ""
+
+#: thespi-custom-post-types.php:82
+msgid "Update Offer Category"
+msgstr ""
+
+#: thespi-custom-post-types.php:83
+msgid "Add New Offer Category"
+msgstr ""
+
+#: thespi-custom-post-types.php:84
+msgid "New Offer Category"
+msgstr ""
+
+#: thespi-custom-post-types.php:87
+msgctxt "slug"
+msgid "offer-category"
+msgstr ""
+
+#: thespi-custom-post-types.php:105
+msgid "Price"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Lava Custom Post Types"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://themespirit.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Offer Post Type for Lava WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSpirit"
+msgstr ""

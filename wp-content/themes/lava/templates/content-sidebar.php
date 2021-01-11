@@ -1,0 +1,1 @@
+<div class="col x12 m4"><?php get_sidebar(); ?></div>

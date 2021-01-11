@@ -1,0 +1,31 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_lava">
+            <key name="blog_title" />
+            <key name="nav_button_text" />
+            <key name="footer_copyright" />
+            <key name="hb_price_prefix" />
+            <key name="hb_archive_title" />
+            <key name="hb_contact_info" />
+        </key>
+    </admin-texts>
+    <custom-types>
+        <custom-type translate="1">lava_offer</custom-type>
+        <custom-type translate="1">hb_room</custom-type>
+        <custom-type translate="1">hb_booking</custom-type>
+        <custom-type translate="1">hb_extra_room</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">lava_offer_category</taxonomy>
+        <taxonomy translate="1">hb_room_type</taxonomy>
+        <taxonomy translate="1">hb_room_capacity</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="translate">_lava_room_type_title</custom-field>
+        <custom-field action="translate">_lava_room_excerpt</custom-field>
+        <custom-field action="translate">_lava_offer_price</custom-field>
+        <custom-field action="translate">_lava_offer_price_unit</custom-field>
+        <custom-field action="ignore">_lava_demo_content</custom-field>
+        <custom-field action="translate">_hb_room_addition_information</custom-field>
+    </custom-fields>
+</wpml-config>

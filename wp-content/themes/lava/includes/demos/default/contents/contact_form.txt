@@ -1,0 +1,4 @@
+<p class="half-col-left">[text* your-name placeholder "Name*"]</p>
+<p class="half-col-right">[email* your-email placeholder "Email*"]</p>
+<p>[textarea* your-message placeholder "Message*"]</p>
+<p class="center-align">[submit "Send"]</p>

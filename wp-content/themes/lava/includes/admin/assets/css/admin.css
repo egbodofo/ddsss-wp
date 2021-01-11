@@ -1,0 +1,1018 @@
+#setting-error-tgmpa {
+	display: block;
+}
+
+/* customizer */
+.customize-control-kirki-radio-image .image {
+	margin-left: -3px;
+	margin-right: -3px;
+}
+
+.customize-control-kirki-radio-image .image>label {
+	padding: 3px;
+}
+
+.customize-control-kirki-radio-image .image>label img {
+	background: #fff;
+	border: 2px solid #ccc;
+	padding: 5px;
+}
+
+.customize-control-kirki-radio-image input:checked + label img {
+	box-shadow: none!important;
+	border: 2px solid #3498DB!important;
+}
+
+/* metabox */
+.rwmb-meta-box {
+	margin-top: 12px;
+	margin-bottom: 6px;
+}
+.rwmb-field {
+	margin-bottom: 15px!important;
+}
+.rwmb-label {
+	font-size: 14px;
+	font-weight: 600;
+}
+.rwmb-field:last-child {
+	margin-bottom: 0!important;
+}
+.rwmb-image-select {
+	height: 54px!important;
+	width: 72px!important;
+	padding: 5px!important;
+}
+.rwmb-text {
+	max-width: 100%;
+}
+.rwmb-field.lava_page_layout {
+	display: none;
+}
+.rwmb-field.lava_page_container {
+	display: none;
+}
+.rwmb-fieldset_text {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+@media screen and (max-width: 1800px) {
+	.rwmb-fieldset_text-wrapper .rwmb-input label {
+		display: block;
+		margin-bottom: 5px;
+	}
+	.rwmb-fieldset_text-wrapper .rwmb-input label span {
+		display: inline-block;
+		min-width: 100px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.rwmb-field {
+		margin-bottom: 20px!important;
+	}
+	.rwmb-label {
+	    display: block;
+	    width: 100%!important;
+	    margin-bottom: 10px;
+	}
+	.rwmb-input {
+		width: 100%!important;
+	}
+	.rwmb-fieldset_text-wrapper .rwmb-input label {
+		margin-bottom: 10px;
+	}
+	.rwmb-fieldset_text-wrapper .rwmb-input label span {
+		display: block;
+		line-height: 20px;
+		margin-bottom: 5px;
+	}
+	.rwmb-fieldset_text-wrapper .rwmb-input label input[type=text] {
+		margin-left: 0;
+	}
+}
+
+/* post views */
+.fixed .column-views {
+	text-align: center;
+	width: 50px;
+}
+@media screen and (max-width: 782px) {
+	.column-views {
+		display: none;
+	}
+}
+
+th#offer_price {
+	width: 10%;
+}
+
+/* admin css */
+#lava-admin-wrap {
+	display: none;
+}
+#lava-admin-wrap *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#lava-admin-wrap h2 {
+	font-weight: 600;
+	text-align: left;
+}
+#lava-admin-wrap p {
+	line-height: 1.7;
+	margin: 0 0 15px;
+}
+#lava-admin-wrap a {
+	text-decoration: none;
+}
+#lava-admin-wrap ul {
+	margin: 0;
+}
+.lava-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.lava-row .lava-col-3,
+.lava-row .lava-col-4 {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.lava-row .lava-col-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.lava-row .lava-col-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.lava-admin-about {
+	position: relative;
+}
+.lava-admin-about h1 {
+	margin: 0 0 20px;
+	font-size: 2rem;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #000;
+}
+.lava-admin-about p {
+	color: #777;
+	font-size: 16px;
+}
+.lava-welcome h3 {
+	font-size: 1em;
+}
+.lava-welcome h3 .dashicons {
+	margin-right: 10px;
+}
+.lava-theme-logo {
+	background-color: #fff;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center 33px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 150px;
+	height: 150px;
+	padding-bottom: 30px;
+	border: 2px solid #afa278;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.lava-theme-logo .lava-theme-version {
+	display: block;
+	background: #afa278;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.15em;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+}
+.lava-admin-item {
+	position: relative;
+	margin-top: 30px;
+}
+#lava-theme-tip {
+	margin: 0!important;
+}
+.lava-theme-message {
+	font-size: 14px!important;
+}
+.lava-theme-error .lava-theme-message {
+	background-color: #fff;
+	border-left: 3px solid #F27432;
+	-webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 0 1px 0 rgba(0,0,0,0.4);
+	box-shadow: 0 0 1px 0 rgba(0,0,0,0.4);
+	padding: 10px 15px;
+}
+#lava-theme-activation-form input[type="text"] {
+	line-height: 27px;
+	padding: 6px 12px;
+	max-width: 360px;
+	width: 100%;
+}
+#lava-theme-activation-form .spinner {
+	float: none;
+}
+.lava-theme-activated .lava-title-activated {
+	display: inline-block;
+}
+.lava-theme-activated .lava-title-unactivated {
+	display: none;
+}
+.lava-theme-activated .lava-activate-theme {
+	display: none!important;
+}
+.lava-theme-activated .lava-update-api-key {
+	display: inline-block!important;
+}
+.lava-theme-activated input[type="text"] {
+	border-color: #AFD13C;
+}
+.button.lava-update-api-key {
+	display: none;
+}
+.lava-title-activated {
+	display: none;
+}
+#lava-theme-tip {
+	font-size: 14px;
+}
+.lava-demo-disabled {
+	opacity: 0.4;
+}
+.lava-demo-disabled .lava-item-overlay {
+	visibility: visible;
+}
+.lava-item-wrapper {
+	background: #fff;
+	position: relative;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+.lava-item-overlay {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	visibility: hidden;
+}
+.lava-item-screenshot {
+	position: relative;
+	overflow: hidden;
+}
+.lava-item-screenshot img {
+	margin-bottom: 0!important;
+	width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+.lava-item-actionbar {
+	background: #fff;
+	position: relative;
+	min-height: 51px;
+	border-top: 1px solid #cccccc;
+}
+.lava-progressbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	max-height: 55px;
+	width: 0;
+	background: rgba(141, 205, 239, 0.8);
+	z-index: -1;
+	visibility: hidden;
+	-webkit-transition: width 200ms;
+	-moz-transition: width 200ms;
+	transition: width 200ms;
+	z-index: 1;
+}
+.lava-item-title {
+	font-size: 14px;
+	font-weight: 600;
+	float: left;
+	line-height: 50px;
+	padding-left: 12px;
+	font-weight: 600;
+	color: #000000;
+}
+.lava-label-installing,
+.lava-label-uninstalling {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	z-index: -1;
+}
+.lava-toggle {
+	position: relative;
+}
+.lava-toggle input[type=checkbox] {
+	display: none;
+}
+.lava-toggle-lever {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #aaa;
+	height: 8px;
+	width: 40px;
+	border-radius: 8px;
+	cursor: pointer;
+	text-align: left;
+	-webkit-box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.3);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.lava-toggle-lever:before {
+	position: absolute;
+	content: "";
+	margin-top: -6px;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	-moz-transition: margin 0.3s, background-color 0.3s;
+	-o-transition: margin 0.3s, background-color 0.3s;
+	-webkit-transition: margin 0.3s, background-color 0.3s;
+	transition: margin 0.3s, background-color 0.3s;
+}
+.rtl .lava-toggle-lever:before {
+	right: 0;
+}
+.lava-toggle.checked .lava-toggle-lever:before {
+	margin-left: 22px;
+	background-color: #0073aa;
+}
+.rtl .lava-toggle.checked .lava-toggle-lever:before {
+	margin-left: 0;
+	margin-right: 22px;
+}
+.lava-toggle.checked .lava-toggle-lever {
+	background-color: #81B6D0;
+}
+.lava-toggle.checked .lava-label-include-content {
+	display: inline-block;
+}
+.lava-toggle.checked .lava-label-exclude-content {
+	display: none;
+}
+.lava-toggle .lava-label-exclude-content {
+	display: inline-block;
+}
+.lava-toggle label {
+	display: none;
+	margin-left: 12px;
+	line-height: 24px;
+	font-size: 14px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.rtl .lava-toggle label {
+	margin-left: 0;
+	margin-right: 12px;
+}
+.lava-plugin-info {
+	background: rgba(255,255,255,0.9);
+	font-size: 14px;
+	padding: 5px 0;
+	position: absolute;
+	top: 77%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.plugin-active .lava-item-label {
+	display: none;
+}
+.plugin-active .lava-label-active {
+	display: inline-block;
+}
+.plugin-active .lava-item-actionbar {
+	background-color: #23282d;
+}
+.plugin-active .lava-item-title {
+	color: #fff;
+}
+.lava-item-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	font-size: 11px;
+	line-height: 1;
+	letter-spacing: 0.1em;
+	padding: 6px 8px 7px;
+	text-transform: uppercase;
+}
+.lava-label-active {
+	display: none;
+	color: #fff;
+	margin-right: 8px;
+}
+.lava-label-required {
+	background-color: #BF3901;
+}
+.lava-item-buttons {
+	float: right;
+	padding: 11px 9px;
+}
+.lava-item-actionbar .button {
+	margin: 0 5px!important;
+}
+.lava-item-actionbar .lava-button-uninstall {
+	display: none;
+}
+.lava-item-actionbar .lava-button-preview,
+.lava-item-actionbar .lava-button-install {
+	display: inline-block;
+}
+.lava-demo-uninstalling .lava-label-uninstalling,
+.lava-demo-installing .lava-label-installing,
+.lava-demo-uninstalling .lava-progressbar,
+.lava-demo-installing .lava-progressbar {
+	visibility: visible!important;
+}
+.lava-demo-installing .lava-item-title,
+.lava-demo-uninstalling .lava-item-title,
+.lava-demo-installing .lava-item-buttons,
+.lava-demo-uninstalling .lava-item-buttons {
+	display: none;
+}
+.lava-demo-installed .lava-button-uninstall {
+	display: inline-block;
+}
+.lava-demo-installed .lava-button-preview,
+.lava-demo-installed .lava-button-install {
+	display: none;
+}
+.lava-demo-installed .lava-progressbar {
+	visibility: hidden;
+}
+#lava-add-wa-form {
+	background-color: #fff;
+	border: 1px solid #e1e1e1;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+#lava-add-wa-form label {
+	display: block;
+	font-style: italic;
+}
+#lava-add-wa-form input,
+#lava-add-wa-form textarea {
+	width: 100%;
+	max-width: 100%;
+	line-height: 24px;
+}
+#lava-add-wa-form p:last-of-type {
+	margin-bottom: 0;
+}
+.lava-button-remove-wa {
+	display: inline-block;
+	text-align: right;
+}
+#lava-wa-message {
+	color: #4a8813;
+}
+#lava-wa-message span {
+	display: block;
+	padding-top: 15px;
+}
+#lava-wa-message .error {
+	color: #a00;
+}
+ul#lava-wa-list {
+	margin-left: 30px;
+}
+#lava-wa-list li {
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	margin-bottom: 10px;
+}
+h3.lava-wa-name {
+	position: relative;
+	height: 48px;
+	line-height: 48px;
+	margin: 0;
+	padding: 0 15px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.lava-wa-name-arrow {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #72777c;
+}
+.rtl .lava-wa-name-arrow {
+	right: auto;
+	left: 15px;
+}
+.active >.lava-wa-name .lava-wa-name-arrow {
+	border-bottom: 5px solid #72777c;
+	border-top: 0;
+}
+.active >.lava-wa-info {
+	display: block;
+}
+.lava-wa-info {
+	border-top: 1px solid #e7e7e7;
+	padding: 10px 15px 45px;
+	position: relative;
+	display: none;
+}
+.lava-wa-info p {
+	margin-bottom: 10px!important;
+}
+.lava-wa-desc {
+	line-height: 24px;
+}
+.lava-wa-shortcode {
+	font-family: monospace,sans-serif;
+	font-size: 14px;
+	padding: 8px 12px;
+	background-color: #f5f5f5;
+}
+.lava-button-remove-wa {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+#lava-wa-how-to {
+	/*padding: 20px;*/
+	/*border: 1px solid #e1e1e1;*/
+}
+.lava-system-status table {
+	margin-bottom: 20px;
+}
+.lava-system-status th {
+	font-weight: 600;
+}
+.lava-system-status .widefat td,
+.lava-system-status .widefat tr,
+.lava-system-status .widefat th {
+	padding-left: 15px!important;
+}
+.lava-system-status-label {
+	width: 200px;
+}
+.lava-system-status-value .lava-help-tip {
+	font-style: italic;
+	font-size: 13px;
+}
+.lava-system-status-value .lava-ok {
+	color: #7ad03a;
+	font-weight: 600;
+}
+.lava-system-status-value .lava-check {
+	color: #7ad03a;
+}
+.lava-card {
+	background-color: #fff;
+	box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+/* fonts */
+#lava-font-panel {
+	margin-bottom: 30px;
+}
+#lava-save-fonts {
+	padding: 0 20px 20px;
+}
+#lava-save-fonts .spinner {
+	float: none;
+}
+#lava-font-preview li {
+	cursor: pointer;
+	height: 64px;
+	position: relative;
+	padding: 0 50px 0 20px;
+	margin: 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#lava-font-preview li.active {
+	background: #000;
+	color: #fff;
+}
+#lava-font-preview li.active a {
+	color: #fff;
+}
+#lava-font-preview .active .lava-font-family,
+#lava-font-preview .active .lava-remove-font {
+	background: #000;
+}
+#lava-font-preview .lava-font-family,
+#lava-font-preview .lava-remove-font {
+	background: #fff;
+	-webkit-transition:none;
+	transition: none;
+}
+#lava-font-preview .lava-font-family,
+.lava-remove-font {
+	position: absolute;
+	top: 0;
+	line-height: 64px;
+	z-index: 1;
+}
+#lava-font-preview .lava-font-family {
+	right: 50px;
+	padding: 0 15px;
+}
+.lava-remove-font {
+	color: #333;
+	right: 0;
+	width: 50px;
+	text-align: center;
+	z-index: 1;
+}
+.lava-remove-font:focus {
+	box-shadow: none;
+}
+.lava-font-specimen {
+	font-size: 18px;
+	line-height: 64px;
+}
+#lava-font-details {
+	border-top: 1px solid #eee;
+	padding: 30px 20px 20px;
+	position: relative;
+}
+.lava-font-source {
+	margin-bottom: 20px;
+}
+#lava-font-details > li {
+	display: none;
+}
+#lava-font-details .lava-font-family {
+	font-size: 20px;
+	margin: 0 0 15px;
+}
+#lava-font-details h3 {
+	font-size: 16px;
+	margin: 0 0 15px;
+}
+.lava-font-variants {
+	float: left;
+	width: 50%;
+	text-transform: capitalize;
+}
+#lava-font-panel > h2,
+#lava-font-library h2 {
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+	padding: 12px 15px;
+	margin: 0;
+}
+#lava-font-library .col {
+	float: left;
+	width: 50%;
+}
+.lava-form-message {
+	padding: 0 15px;
+	margin: 10px 0 15px!important;
+}
+.error {
+	color: #b81c23;
+}
+.success {
+	color: #8fae1b;
+}
+#lava-custom-fonts {
+	margin-bottom: 20px;
+}
+#lava-font-filter {
+	border-bottom: 1px solid #eee;
+	padding: 5px 15px;
+}
+#lava-font-filter a {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 30px;
+	min-width: 15px;
+	text-align: center;
+	text-decoration: underline;
+}
+#lava-font-filter a:focus {
+	box-shadow: none;
+	outline: 0;
+}
+#lava-font-filter a:hover {
+	text-decoration: none;
+}
+#lava-font-filter a.active {
+	pointer-events: none;
+	text-decoration: none;
+}
+#lava-google-fonts .lava-font-list li {
+	display: none;
+}
+.lava-font-list {
+	padding: 0 15px 20px;
+}
+.lava-font-list li {
+	border-bottom: 1px dotted #ccc;
+	margin: 0;
+	padding: 8px 0;
+}
+.lava-font-list li:last-child {
+	border-bottom: none;
+}
+.lava-font-actions {
+	float: right;
+}
+.rtl .lava-font-actions {
+	float: left;
+}
+.lava-font-actions a {
+	display: inline-block;
+	float: left;
+	line-height: 20px;
+	vertical-align: top;
+}
+.lava-font-actions a:focus {
+	box-shadow: none;
+}
+.lava-font-actions .lava-remove-custom-font,
+.lava-font-actions .lava-add-font {
+	margin-top: -3px;
+}
+.lava-add-font,
+.lava-remove-custom-font {
+	font-size: 24px;
+	margin-left: 10px;
+}
+/* custom fonts */
+#lava-form-custom-font {
+	margin-top: 15px;
+	padding: 0 20px 20px;
+}
+#lava-form-custom-font > div {
+	margin: 0 0 15px;
+}
+#lava-form-custom-font > div:last-child {
+	margin: 0;
+}
+#lava-form-custom-font label {
+	display: block;
+	margin-bottom: 5px;
+}
+#lava-form-custom-font .lava-ff {
+	display: none;
+}
+#lava-custom-font-name {
+	line-height: 28px;
+	width: 100%;
+}
+.lava-file-input {
+	background-color: #fff;
+	border: 1px solid #e1e1e1;
+	border-radius: 2px;
+	line-height: 24px;
+	height: 32px;
+	padding: 4px 100px 4px 10px;
+	position: relative;
+	width: 100%;
+}
+.lava-upload-buttons {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.lava-upload-submit,
+.lava-upload-remove {
+	background-color: #fff;
+	border: none;
+	border-left: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+}
+#setting-error-tgmpa {
+	display: block!important;
+}
+
+/* megamenu */
+.lava-megamenu-edit p:not(.field-icon):not(.field-iconfont) {
+	display: none;
+}
+.menu-item-depth-0 .lava-megamenu-edit .field-enable,
+.lava-megamenu-active.menu-item-depth-0 .field-width {
+	display: block!important;
+}
+.lava-megamenu-active.menu-item-depth-1 .field-new-row,
+.lava-megamenu-active.menu-item-depth-1 .field-hide-text,
+.lava-megamenu-active.menu-item-depth-1 .field-widget-area,
+.lava-megamenu-active.menu-item-depth-1 .field-column-width,
+.lava-megamenu-active.menu-item-depth-2 .field-widget-area {
+	display: block!important;
+}
+.field-icon .button {
+	margin-right: 12px;
+	vertical-align: middle!important;
+}
+.lava-megamenu-image-preview {
+	clear:both;
+	display: none;
+	margin-right: 8px;
+	max-width: 50px;
+	max-height: 50px;
+	vertical-align: middle!important;
+}
+.field-icon input,
+.lava-megamenu-remove-image.button,
+.has-image .lava-megamenu-set-image.button {
+	display: none;
+}
+.has-image .lava-megamenu-image-preview,
+.has-image .lava-megamenu-remove-image.button {
+	display: inline-block;
+}
+
+@media (max-width: 1110px) {
+	.lava-admin-header .nav-tab-wrapper {
+		border-bottom: 0;
+	}
+	.lava-admin-header .nav-tab-wrapper a {
+	    margin: 10px 10px 0 0;
+    	border-bottom: 1px solid #ccc;
+	}
+	#lava-font-library .col {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 782px) {
+	.lava-admin-about {
+		text-align: center;
+	}
+	.lava-welcome .lava-admin-about {
+		padding: 0;
+	}
+	.lava-theme-logo {
+		position: relative;
+		right: auto;
+		margin: 30px auto;
+	}
+	.lava-row .lava-col-3,
+	.lava-row .lava-col-4 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	#lava-font-library .col {
+		padding: 0!important;
+	}
+	.lava-item-title,
+	.lava-label-installing,
+	.lava-label-uninstalling {
+		line-height: 55px;
+	}
+	.lava-item-actionbar {
+		min-height: 56px;
+	}
+	#tgmpa-plugins .column-status,
+	#tgmpa-plugins .column-source {
+		display: none;
+	}
+	#tgmpa-plugins th,
+	#tgmpa-plugins td {
+		display: inline-block;
+	}
+	#tgmpa-plugins th.column-type,
+	#tgmpa-plugins td.column-type {
+		width: 35%;
+	}
+	#tgmpa-plugins th.column-plugin,
+	#tgmpa-plugins td.column-plugin {
+		width: 65%;
+		padding-left: 50px;
+	}
+	#tgmpa-plugins th {
+		min-width: 36px;
+	}
+	ul#lava-wa-list {
+		margin-left: 0;
+	}
+	#lava-purchase-code {
+		margin-top: 10px;
+	}
+}
+@media (max-width: 640px) {
+	.lava-row .lava-col-3,
+	.lava-row .lava-col-4 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.lava-item-actionbar {
+		min-height: 107px;
+	}
+	.lava-item-title {
+		line-height: 50px;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		border-bottom: 1px solid #cccccc;
+	}
+	.lava-progressbar {
+		max-height: 50px;
+	}
+	.lava-label-installing,
+	.lava-label-uninstalling {
+		margin-top: 50px;
+		line-height: 50px;
+		border-top: 1px solid #cccccc;
+	}
+	.lava-item-buttons {
+		text-align: center;
+		width: 100%;
+	}
+	.lava-item-actionbar .button {
+		float: none;
+	}
+	.lava-system-status-label,
+	.lava-system-status-value {
+		width: 100%;
+		display: block;
+	}
+	.lava-system-status-value {
+		background-color: #f9f9f9;
+	}
+}
+@media (max-width: 500px) {
+	#lava-admin-wrap {
+		margin-left: 10px;
+		min-width: 300px;
+	}
+	#tgmpa-plugins {
+		min-width: 320px;
+	}
+	.lava-admin-header .nav-tab-wrapper {
+		padding-left: 27px!important;
+	}
+}
+@media (min-width: 640px) {
+	.lava-item-buttons {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+	}
+}

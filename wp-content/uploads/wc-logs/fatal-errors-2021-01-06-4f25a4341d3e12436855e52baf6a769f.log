@@ -1,0 +1,14 @@
+2021-01-06T12:35:47+00:00 CRITICAL Uncaught Error: Call to a member function is_rtl() on null in /home/femi/code/wordpress/wp-includes/script-loader.php:1715
+Stack trace:
+#0 /home/femi/code/wordpress/wp-includes/class-wp-hook.php(287): wp_localize_jquery_ui_datepicker()
+#1 /home/femi/code/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/femi/code/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/femi/code/wordpress/wp-includes/script-loader.php(2004): do_action()
+#4 /home/femi/code/wordpress/wp-includes/class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 /home/femi/code/wordpress/wp-includes/class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die()
+#6 /home/femi/code/wordpress/wp-includes/class-wp-hook.php(287): WP_Customize_Manager->setup_theme()
+#7 /home/femi/code/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#8 /home/femi/code/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action()
+#9 /home/femi/code/wordpress/wp-settings.php(489): do_action()
+ in /home/femi/code/wordpress/wp-includes/script-loader.php on line 1715
+
